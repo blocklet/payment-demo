@@ -1,3 +1,7 @@
+## 1.2.0 (March 27, 2021)
+
+
+
 ## 1.1.7 (January 14, 2021)
 
 - feat: support publish to blocklet registry
