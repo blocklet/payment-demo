@@ -45,9 +45,6 @@ requirements:
 children: []
 charging:
   price: 0
-  shares:
-    developer: 0.6
-    registry: 0.4
   tokens:
     - address: 'z35n3kwEXMakjzfaf24DLd67dTJRByTf8y1FN'
       price: 8.88
