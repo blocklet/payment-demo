@@ -1,4 +1,4 @@
-# static-demo-blocklet
+# payment-demo-blocklet
 
 ![](https://github.com/arcblock/forge-webapp/workflows/build/badge.svg)
 ![](https://img.shields.io/badge/Powered%20By-ABT%20Node-yellowgreen)
@@ -13,14 +13,14 @@ Demo blocklet contains only static files, which is an html5 game
 
 Click the "Open in Gitpod" button, Gitpod will start ABT Node and the blocklet.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/static-demo)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/blocklet/payment-demo)
 
 ## Run and debug locally
 
 ```shell
 yarn global add @abtnode/cli
-git clone git@github.com:blocklet/static-demo.git
-cd static-demo
+git clone git@github.com:blocklet/payment-demo.git
+cd payment-demo
 abtnode init --mode debug
 abtnode start
 blocklet dev

@@ -1,5 +1,5 @@
 {
-  "name": "static-demo-blocklet",
+  "name": "payment-demo-blocklet",
   "title": "Static Demo",
   "publishConfig": {
     "access": "public"
