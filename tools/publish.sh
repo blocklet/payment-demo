@@ -8,7 +8,6 @@ git config --local user.email "bot@arcblock.io"
 
 echo "publishing to blocklet registry"
 blocklet config registry ${BLOCKLET_REGISTRY}
-blocklet config chainEndpoint ${CHAIN_ENDPOINT}
 
 blocklet publish --developer-sk ${ABTNODE_DEV_SK}
 
