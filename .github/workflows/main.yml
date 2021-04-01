@@ -1,34 +1,34 @@
-name: build
+# name: build
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  Deploy:
+# jobs:
+#   Deploy:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
+#     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
 
-    steps:
+#     steps:
 
-    - name: Checkout repo
-      uses: actions/checkout@v2
+#     - name: Checkout repo
+#       uses: actions/checkout@v2
 
-    - name: Init repo
-      run: make github-action-init
+#     - name: Init repo
+#       run: make github-action-init
 
-    - name: Deploy
-      env:
-        CHAIN_ENDPOINT: ${{ secrets.STAGING_CHAIN_ENDPOINT }}
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        BLOCKLET_REGISTRY: ${{ secrets.STAGING_REGISTRY }}
-        ABTNODE_DEV_SK: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
-      run: bash ./tools/publish.sh
+#     - name: Deploy
+#       env:
+#         CHAIN_ENDPOINT: ${{ secrets.STAGING_CHAIN_ENDPOINT }}
+#         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+#         BLOCKLET_REGISTRY: ${{ secrets.STAGING_REGISTRY }}
+#         ABTNODE_DEV_SK: ${{ secrets.ABTNODE_DEV_STAGING_SK }}
+#       run: bash ./tools/publish.sh
 
-    - name: Release to Github
-      uses: blocklet/action-release-to-github@v1.0.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+#     - name: Release to Github
+#       uses: blocklet/action-release-to-github@v1.0.0
+#       with:
+#         token: ${{ secrets.GITHUB_TOKEN }}
