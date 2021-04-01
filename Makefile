@@ -5,11 +5,12 @@ VERSION=$(strip $(shell cat version))
 
 build:
 	@echo "Building the software..."
+	@npm run release
 
 init: install dep
 	@echo "Initializing the repo..."
 
-github-action-init:
+github-init:
 	@echo "Initializing the repo..."
 	@sudo npm install -g @abtnode/cli
 

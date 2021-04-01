@@ -16,7 +16,7 @@
   "scripts": {
     "clean": "rm -rf .blocklet",
     "release": "npm run clean && blocklet bundle --create-release",
-    "deploy": "npm run release && blocklet deploy .blocklet/bundle --skip-hooks"
+    "deploy": "npm run release && blocklet deploy .blocklet/bundle"
   },
   "keywords": [
     "demo",
