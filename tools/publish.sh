@@ -11,4 +11,4 @@ blocklet config registry ${BLOCKLET_REGISTRY}
 
 blocklet publish --developer-sk ${ABTNODE_DEV_SK}
 
-curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"${NAME} v${VERSION} was successfully published\"}" ${SLACK_WEBHOOK}
+curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"payment-demo v${VERSION} was successfully published\"}" ${SLACK_WEBHOOK}
