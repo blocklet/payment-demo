@@ -1,3 +1,7 @@
+## 1.2.2 (April 02, 2021)
+
+
+
 ## 1.2.1 (April 01, 2021)
 
 - feat: enable publish from github actions
