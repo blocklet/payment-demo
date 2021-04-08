@@ -1,3 +1,7 @@
+## 1.2.4 (April 08, 2021)
+
+- chore: to create new nft factory
+
 ## 1.2.3 (April 02, 2021)
 
 
