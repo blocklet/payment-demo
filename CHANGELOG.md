@@ -1,3 +1,7 @@
+## 1.2.7 (April 23, 2021)
+
+- chore: trigger new release
+
 ## 1.2.6 (April 15, 2021)
 
 - chore: trigger new release
