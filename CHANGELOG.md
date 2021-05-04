@@ -1,3 +1,7 @@
+## 1.3.0 (May 04, 2021)
+
+- chore: republish to beta chain
+
 ## 1.2.7 (April 23, 2021)
 
 - chore: trigger new release
