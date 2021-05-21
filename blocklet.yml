@@ -46,6 +46,6 @@ children: []
 charging:
   price: 0
   tokens:
-    - address: z35n3kwEXMakjzfaf24DLd67dTJRByTf8y1FN
+    - address: z35nFBAXpA5N9xE1StApu6MPE6wUGzwThJGGp
       price: 8.88
 capabilities: {}
