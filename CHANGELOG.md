@@ -1,3 +1,7 @@
+## 1.4.0 (May 21, 2021)
+
+- fix: token id for charging
+
 ## 1.3.0 (May 04, 2021)
 
 - chore: republish to beta chain
