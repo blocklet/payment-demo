@@ -1,6 +1,6 @@
 name: payment-demo-blocklet
 title: Payment Demo
-version: 1.4.0
+version: 1.5.0
 description: >-
   Demo blocklet that shows how developers earn crypto tokens by setting price
   for blocklets
@@ -46,7 +46,7 @@ children: []
 charging:
   price: 0
   tokens:
-    - address: z35nFBAXpA5N9xE1StApu6MPE6wUGzwThJGGp
+    - address: z35n3WVTnN7KrR4gXn3szR6oneVefkBBx78Fc
       price: 8.88
 capabilities:
   clusterMode: false

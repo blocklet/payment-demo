@@ -1,3 +1,7 @@
+## 1.5.0 (May 25, 2021)
+
+- fix: update token address for charging
+
 ## 1.4.0 (May 21, 2021)
 
 - fix: token id for charging
