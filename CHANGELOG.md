@@ -1,3 +1,7 @@
+## 1.3.1 (十月 14, 2021)
+
+- chore: use action-workflow
+
 ## 1.3.0 (May 04, 2021)
 
 - chore: republish to beta chain
@@ -20,19 +24,13 @@
 
 ## 1.2.3 (April 02, 2021)
 
-
-
 ## 1.2.2 (April 02, 2021)
-
-
 
 ## 1.2.1 (April 01, 2021)
 
 - feat: enable publish from github actions
 
 ## 1.2.0 (March 27, 2021)
-
-
 
 ## 1.1.7 (January 14, 2021)
 
@@ -44,15 +42,9 @@
 
 ## 1.1.5 (November 24, 2020)
 
-
-
 ## 1.1.4 (November 24, 2020)
 
-
-
 ## 1.1.3 (November 24, 2020)
-
-
 
 ## 1.1.2 (November 20, 2020)
 
