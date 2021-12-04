@@ -1,6 +1,11 @@
+## 1.5.2 (十二月 01, 2021)
+
+- chore: update blocklet.yml: charging -> payment
+
 ## 1.5.1 (十月 14, 2021)
 
 - chore: use action-workflow
+
 ## 1.5.0 (May 25, 2021)
 
 - fix: update token address for charging
