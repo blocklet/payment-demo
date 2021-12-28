@@ -1,3 +1,7 @@
+## 1.5.3 (December 28, 2021)
+
+- chore: update docs/scripts/actions (abtnode rebranding)
+
 ## 1.5.2 (十二月 01, 2021)
 
 - chore: update blocklet.yml: charging -> payment
