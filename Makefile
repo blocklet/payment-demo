@@ -12,11 +12,11 @@ init: install dep
 
 github-init:
 	@echo "Initializing the repo..."
-	@sudo npm install -g @abtnode/cli
+	@sudo npm install -g @blocklet/cli
 
 install:
 	@echo "Install software required for this repo..."
-	@npm install -g yarn @abtnode/cli
+	@npm install -g yarn @blocklet/cli
 
 dep:
 	@echo "Install dependencies required for this repo..."
