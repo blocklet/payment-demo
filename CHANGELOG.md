@@ -1,3 +1,7 @@
+## 1.5.7 (June 27, 2022)
+
+- fix: resize the logo
+
 ## 1.5.6 (February 17, 2022)
 
 - [skip ci] Update README.md

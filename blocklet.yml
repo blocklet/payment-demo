@@ -1,6 +1,6 @@
 name: payment-demo-blocklet
 title: Payment Demo
-version: 1.5.6
+version: 1.5.7
 description: >-
   Demo blocklet that shows how developers earn crypto tokens by setting price
   for blocklets
@@ -17,7 +17,7 @@ keywords:
 author:
   name: wangshijun
   email: wangshijun2010@gmail.com
-  url: 'http://github.com/wangshijun'
+  url: http://github.com/wangshijun
 license: MIT
 did: z8iZyFxvvqwW98MiqKv1tmws2o3iTZnTajE3B
 group: static
@@ -28,7 +28,7 @@ documentation: ''
 homepage: ''
 screenshots: []
 environments: []
-specVersion: 1.2.2
+specVersion: 1.2.7
 interfaces:
   - type: web
     name: publicUrl
