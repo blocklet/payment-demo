@@ -1,3 +1,7 @@
+## 1.6.0 (September 02, 2022)
+
+- add componentPrice
+
 ## 1.5.7 (June 27, 2022)
 
 - fix: resize the logo
