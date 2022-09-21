@@ -1,3 +1,7 @@
+## 1.6.1 (九月 21, 2022)
+
+- upgrade version
+
 ## 1.6.0 (September 02, 2022)
 
 - add componentPrice
