@@ -1,3 +1,7 @@
+## 1.6.2 (March 31, 2023)
+
+- chore: update pkg
+
 ## 1.6.1 (九月 21, 2022)
 
 - upgrade version

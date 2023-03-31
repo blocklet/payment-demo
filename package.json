@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "Demo blocklet that shows how to serve a static html5 game with Blocklet Server",
   "files": [
     "app/",
@@ -15,8 +15,11 @@
   ],
   "scripts": {
     "clean": "rm -rf .blocklet",
-    "release": "npm run clean && blocklet bundle --create-release",
-    "deploy": "npm run release && blocklet deploy .blocklet/bundle"
+    "bundle": "npm run clean && blocklet bundle --create-release",
+    "deploy": "npm run bundle && blocklet deploy .blocklet/bundle",
+    "upload": "npm run bundle && blocklet upload .blocklet/release/blocklet.json",
+    "update:deps": "npx taze -w && yarn",
+    "dedupe": "npx yarn-deduplicate yarn.lock"
   },
   "keywords": [
     "demo",
