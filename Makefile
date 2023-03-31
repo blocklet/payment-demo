@@ -5,7 +5,7 @@ VERSION=$(strip $(shell cat version))
 
 build:
 	@echo "Building the software..."
-	@npm run release
+	@npm run bundle
 
 init: install dep
 	@echo "Initializing the repo..."
