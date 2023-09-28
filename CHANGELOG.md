@@ -1,3 +1,7 @@
+## 1.6.3 (September 28, 2023)
+
+- chore: update blocklet.yml
+
 ## 1.6.2 (March 31, 2023)
 
 - chore: update pkg
